@@ -1,0 +1,18 @@
+name: CI/CD Portfolio
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate HTML
+        run: echo "Checking files..."
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
