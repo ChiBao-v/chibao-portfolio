@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio cá nhân của Chi Bao - Data Analytics, Web, Machine Learning và AI projects">
+    <meta name="keywords" content="Chi Bao, Data Science, AI, Machine Learning, Data Analyst, Portfolio">
+    <meta name="author" content="Chi Bao">
+    <title>Chi Bao - Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">ChiBao<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                <li class="theme-toggle-li">
+                    <div class="theme-toggle">
+                        <input type="checkbox" id="theme-switch">
+                        <label for="theme-switch" class="toggle-label" aria-label="Toggle theme">
+                            <span class="toggle-slider"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+
+            <button class="menu-toggle" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="hero-bg"></div>
+        <div class="particles" id="particles-js"></div>
+
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <p class="eyebrow">Data Science Portfolio</p>
+
+                <h1>Hello, I'm <span>Chi Bao</span></h1>
+
+                <p class="hero-quote">
+                    Turning data into insights, code into solutions.
+                </p>
+
+                <h2>
+                    I am a <span id="typed"></span><span id="typed-cursor">|</span>
+                </h2>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn">
+                        <i class="fas fa-layer-group"></i> View Projects
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://github.com/ChiBao-v" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ch%C3%AD-b%E1%BA%A3o-394bb535a/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/chi.bao.98478672/?locale=vi_VN" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <img src="images/profile.jpg" alt="Chi Bao" class="profile-img">
+
+                <div class="hero-card-info">
+                    <h3>Nguyen Pham Chi Bao</h3>
+                    <p>Data Science Student</p>
+
+                    <div class="quick-stats">
+                        <div>
+                            <strong>3.53</strong>
+                            <span>GPA</span>
+                        </div>
+
+                        <div>
+                            <strong>575</strong>
+                            <span>TOEIC</span>
+                        </div>
+
+                        <div>
+                            <strong>4+</strong>
+                            <span>Tracks</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container two-column">
+            <div>
+                <p class="section-kicker">About Me</p>
+                <h2 class="section-title left">
+                    Building data products with clear insights
+                </h2>
+            </div>
+
+            <div class="section-text about-box">
+                <p>
+                    I'm a Data Science student at Industrial University of Ho Chi Minh City (IUH),
+                    interested in Data Analytics, Data Engineering, Machine Learning and AI applications.
+                    I enjoy transforming raw data into dashboards, predictive models and practical software solutions.
+                </p>
+
+                <div class="personal-info-grid">
+                    <p><strong>Full Name:</strong> Nguyen Pham Chi Bao</p>
+                    <p><strong>Location:</strong> Ho Chi Minh City, Vietnam</p>
+                    <p><strong>Phone:</strong> +84 379 439 757</p>
+
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:nguyenphamchibao757@gmail.com">
+                            nguyenphamchibao757@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/ChiBao-v" target="_blank">
+                            github.com/ChiBao-v
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/ch%C3%AD-b%E1%BA%A3o-394bb535a/" target="_blank">
+                            linkedin.com/in/chí-bảo
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="section soft-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+
+            <div class="timeline-card">
+                <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <div>
+                    <h3>Ho Chi Minh City University of Industry (IUH)</h3>
+                    <p>08/2022 - Present | Major: Data Science</p>
+                    <p>GPA: 3.53/4.0 | TOEIC: 575</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-kicker">Selected Work</p>
+                <h2 class="section-title">Projects</h2>
+                </p>
+            </div>
+
+            <div class="project-tabs" role="tablist" aria-label="Project categories">
+                <button class="project-tab active" data-filter="all">All</button>
+                <button class="project-tab" data-filter="da">
+                    <i class="fas fa-chart-line"></i> DA
+                </button>
+                <button class="project-tab" data-filter="web">
+                    <i class="fas fa-code"></i> Web
+                </button>
+                <button class="project-tab" data-filter="ml">
+                    <i class="fas fa-project-diagram"></i> Machine Learning
+                </button>
+                <button class="project-tab" data-filter="ai">
+                    <i class="fas fa-robot"></i> AI
+                </button>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-category="ml ai">
+                    <a href="https://github.com/ChiBao-v/Rice-Leaf-Disease-Classification" target="_blank">
+                        <div class="project-media">
+                            <img src="images/rice_leaf_disease_project1.png" alt="Rice Leaf Disease Classification" class="project-img">
+                            <span class="project-badge">ML / AI</span>
+                        </div>
+
+                        <div class="project-body">
+                            <h3>Rice Leaf Disease Classification</h3>
+
+                            <p>
+                                Deep learning model for classifying rice leaf diseases using CNN
+                                and transfer learning techniques.
+                            </p>
+
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>CNN</span>
+                                <span>Transfer Learning</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="da">
+                    <a href="https://github.com/ChiBao-v/hr-analytics-workforce-performance" target="_blank">
+                        <div class="project-media">
+                            <img src="images/hr-analytics-project2.png" alt="HR Analytics Workforce Performance Dashboard" class="project-img">
+                            <span class="project-badge">DA</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>HR Analytics: Workforce Performance</h3>
+                            <p>
+                                End-to-end HR analytics project combining SQL, Python EDA,
+                                and Power BI dashboards to uncover workforce and business insights.
+                            </p>
+                            <div class="tech-stack">
+                                <span>SQL</span>
+                                <span>Python</span>
+                                <span>Power BI</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="web">
+                    <a href="https://github.com/ChiBao-v/Score-Input" target="_blank">
+                        <div class="project-media">
+                            <img src="images/score-input_project3.png" alt="Score Input Management System" class="project-img">
+                            <span class="project-badge">Web App</span>
+                        </div>
+
+                        <div class="project-body">
+                            <h3>Score Input Management System</h3>
+                            <p>
+                                A score management web application that supports structured score entry,
+                                data organization, and efficient academic record handling through a clean interface.
+                            </p>
+                            <div class="tech-stack">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Project 4 -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards" class="section soft-section">
+        <div class="container">
+            <h2 class="section-title">Awards & Achievements</h2>
+
+            <div class="award-grid">
+                <a class="award-card" href="https://coursera.org/share/6b92c182998d89df0884185c8a5c3595" target="_blank">
+                    <i class="fas fa-certificate"></i>
+                    <span>Google Data Analytics Certificate</span>
+                </a>
+
+                <a class="award-card" href="https://drive.google.com/file/d/1HeokfU_4Iyr1ab5Z4UttNvWWauSI6UYi/view?usp=drive_link" target="_blank">
+                    <i class="fas fa-award"></i>
+                    <span>Young Scientists Conference 2024</span>
+                </a>
+
+                <a class="award-card" href="https://drive.google.com/file/d/1GxlXG-kNW6WbeNo119FzsQtoK6GIEVqJ/view?usp=drive_link" target="_blank">
+                    <i class="fas fa-award"></i>
+                    <span>Young Scientists Conference 2025</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Programming</h3>
+                    <p>Python, SQL, JavaScript, automation and scripting.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Data Analytics</h3>
+                    <p>EDA, visualization, Matplotlib, Seaborn, Tableau, Power BI.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Scikit-learn, PyTorch, TensorFlow, model evaluation.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, Hugging Face, Google Colab, PostgreSQL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+        <div class="container contact-grid">
+            <div>
+                <p class="section-kicker">Contact</p>
+
+                <h2 class="section-title left">
+                    Let's build something useful from data
+                </h2>
+
+                <p class="section-subtitle left-text">
+                    Bạn có thể liên hệ qua form hoặc qua các nền tảng cá nhân của mình.
+                </p>
+            </div>
+
+            <form action="https://formspree.io/f/xrbkqdrp" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+
+                <input type="email" name="email" placeholder="Your Email" required>
+
+                <input type="text" name="phone" placeholder="Your Phone">
+
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Nguyen Pham Chi Bao. All rights reserved.</p>
+
+            <div class="social-links">
+                <a href="https://github.com/ChiBao-v" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://kaggle.com" target="_blank">
+                    <i class="fas fa-code"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/ch%C3%AD-b%E1%BA%A3o-394bb535a/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
