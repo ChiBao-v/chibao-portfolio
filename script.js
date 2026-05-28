@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                 },
                 color: {
-                    value: "#2563eb"
+                    value: "#0fbea8"
                 },
                 shape: {
                     type: "circle"
